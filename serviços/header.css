@@ -1,0 +1,12 @@
+.sec1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    background: linear-gradient(45deg , #FFB6FF, #DB97FF, #A100FF);
+    border-bottom: 3px solid black;
+}
+.img222{
+    width: 550px;
+    height: 300px;
+}

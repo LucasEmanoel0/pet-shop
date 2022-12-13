@@ -3,10 +3,21 @@
 .box{
     height: 250px;
     background: linear-gradient(45deg , #FFB6FF, #DB97FF, #A100FF);
+    background-size: 100% 100%;
+    animation: header 5seg infinite  alternate ;
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-direction: row;
+}
+@keyframes header{
+    0%{
+        background-position-x: 0%;
+    }
+
+    100%{
+        background-position-x: 100%;
+    }
 }
 .box2{
     background-color: white;
@@ -20,8 +31,13 @@ li{
     list-style: none;
 }
 a{
+    text-shadow: 5px  black;
+    font-family: sans-serif;
     margin: 20px;
     text-decoration: none;
     font-size: 25px;
-    color: blue;
+    color: #472183;
+}
+a:hover{
+    color: #A100FF;
 }

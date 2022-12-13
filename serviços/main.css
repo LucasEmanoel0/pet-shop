@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fira+Code:wght@400;500&family=Mukta:wght@400;800&family=Press+Start+2P&display=swap');
+main{
+    background: linear-gradient(45deg, #472183, #4B56D2, #82C3EC);
+    background-size: 500% 500%;
+    animation: header 5seg infinite  alternate ;
+}
+.banho{
+    display: flex ;
+    flex-direction: column;
+    border-bottom: 3px solid black;
+    
+}
+.banho11{
+    border-bottom: 3px solid white;
+}
+.box{
+    display: flex;
+    justify-content: center;
+}
+h1{
+    font-family: sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    color: aqua;
+    text-shadow: 4px 4px black;
+}
+p {
+    font-size: 25px;
+    color: white;
+    font-family: sans-serif;
+}
+.box1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.img{
+    width: 600px;
+    height: 600px;
+}
